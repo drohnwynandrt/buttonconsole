@@ -1,4 +1,3 @@
-// var buttonone = document.getElementById('buttonone');
 function logFunctieOne(){
 document.getElementById("output").innerHTML += "1";
 }
@@ -18,17 +17,14 @@ function logFunctieSeven(){
     document.getElementById("output").innerHTML += "+";
  }
 
+ function minusFunctie(){
+    document.getElementById("output").innerHTML += "-";
+ }
+
+ function clearFunctie(){
+    document.getElementById("output").innerHTML = '';
+ }
  function equalsFunctie(){
      var result = eval(document.getElementById("output").innerHTML);
     document.getElementById("output").innerHTML = result;
  }
-
- //var a = document.getElementById("output");
- //var b = ;
- //var result = a+b;
-
-
-// function resultFunctie(){
-//    document.getElementById("result").innerHTML = result;}
-//     document.getElementById("output").innerHTML = '';
-// console.log(buttonone);
