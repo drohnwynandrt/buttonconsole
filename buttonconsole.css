@@ -27,3 +27,18 @@ body{
     max-width: 400px;
     font-size:60px;
 }
+
+.btnclear {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    height: 195px;
+}
+.btnequals {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    height: 195px;
+}
+.btn0 {
+    grid-column: 1/3;
+    width: 195px;
+}

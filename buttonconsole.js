@@ -36,6 +36,16 @@ function logFunctieZero(){
     document.getElementById("output").innerHTML += "-";
  }
 
+ function divideFunctie(){
+   document.getElementById("output").innerHTML += "/";
+}
+function multiplyFunctie(){
+   document.getElementById("output").innerHTML += "*";
+}
+
+function dotFunctie(){
+   document.getElementById("output").innerHTML += ".";
+}
  function clearFunctie(){
     document.getElementById("output").innerHTML = '';
  }
